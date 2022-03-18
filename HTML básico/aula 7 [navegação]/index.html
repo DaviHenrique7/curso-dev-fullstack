@@ -1,0 +1,95 @@
+<!--
+    ------------------------------------------------------------------------------------------------------------------------
+    <!DOCTYPE html>: Todos os documentos HTML devem começar com uma <!DOCTYPE>declaração.
+    A declaração não é uma tag HTML. É uma "informação" para o navegador sobre qual tipo de documento esperar.
+    Em HTML 5, a declaração é simples:
+    <!DOCTYPE html>
+    ------------------------------------------------------------------------------------------------------------------------
+-->
+<!DOCTYPE html>
+
+<!--
+    -------------------------------------------------------------------------------------------------------------------------
+    <html lang="pt">: idioma padão ao qual a minha página será traduzida por primeiro.
+    ------------------------------------------------------------------------------------------------------------------------   
+-->
+<html lang="pt">
+
+<!--
+    --------------------------------------------------------------------------------------------------------------------------
+    <head>: O <head>elemento é um contêiner para metadados (dados sobre dados) e é colocado entre a tag <html> e a tag <body>.
+    Metadados são dados sobre o documento HTML. Os metadados não são exibidos.
+    Metadados normalmente definem o título do documento, conjunto de caracteres, estilos, scripts e outras informações de meta.
+    Os seguintes elementos podem ir dentro do <head>elemento:
+    <title> (obrigatório em todo documento HTML)
+    <estilo>
+    <base>
+    <link>
+    <meta>
+    <script>
+    <noscript>
+    ---------------------------------------------------------------------------------------------------------------------------    
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Henrique</title> <!--nome que irá aparecer na aba do navegador-->
+</head>
+
+<!--
+    ----------------------------------------------------------------------------------------------------------------------------
+    <body>: A <body>tag define o corpo do documento.
+    O <body>elemento contém todo o conteúdo de um documento HTML, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc.
+    Nota: Só pode haver um <body> elemento em um documento HTML.
+    ----------------------------------------------------------------------------------------------------------------------------
+-->
+<body>
+    
+    <!--img src=tag básica para trazer imagens ao código-->
+    <!--[alt] identificar a foto-->
+    <img src="Davi.jpg" width="200" alt="Foto: Davi Henrique">
+    
+    <h1>Davi Henrique</h1> <!--<h1> titulo-->
+    <h2>Software Developer</h2> <!--<h2> sub titulo-->
+
+    <a href="contact.html" target="_blank">Contact</a> <!--target="_blank" para que o link seja aberto em uma nova aba-->
+
+    <!--a tag br serve para pular linhas-->
+    <br><br>
+
+    <!--a href="" tag ancora para trazer qualquer link para código-->
+    
+    <a href="http://www.linkedin.com" target="_blank">Linkedin</a>
+    -
+    <a href="http://www.github.com" target="_blank">Github</a>
+    -
+    <a href="http://www.instagram.com" target="_blank">Instagram</a>
+
+    <p>
+        <!--a tag b vem de bold=negrito e serve para eu deixar uma certa frase ou palavra do meu código em negrito-->
+        <!--a tag strong serve para eu deixar uma certa frase ou palavra do meu código em negrito-->
+        <!--a diferença de uma para outra é o valor semântico. O b serve apenas para deixar a palavra em negrito, por outro lado strong serve para que além de deixar a palavra em negrito, aquela paçavra ou frase tem um valor muito forte dentro do meu parágrafo e eu quero dar prioridade para ele. -->
+        <!--a tag i serve para que eu possa deixar uma certa palavra em itálico-->
+        <!--a tag em serve também para deixar uma palavra do meu código em itálico porém com o valor semântico , como por exemplo o strong-->
+        Lorem ipsum dolor sit amet, <strong>Davi Henrique</strong> consectetur adipisicing elit. <strong>Software Developer</strong> eligendi culpa unde aliquid quam omnis excepturi alias nobis nisi, autem nam similique doloribus suscipit facilis ex odit. Beatae, atque delectus!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <b>Portugal</b> Unde officia ut ipsam velit suscipit quam facere, voluptatum illo, sit porro commodi? Odit modi illum quisquam provident, porro possimus placeat soluta!
+        Lorem ipsum dolor sit amet consectetur <i>adipisicing elit</i>. Temporibus dignissimos labore illum, a aliquam, <em>rem ducimus cupiditate earum perspiciatis</em> natus similique nisi corrupti quae molestiae fugiat. Quae nostrum perspiciatis iusto?
+    </p>
+
+    <h3>Other stuff i like to play</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor consequatur asperiores enim! Natus eaque tempore molestiae esse maiores delectus, iure alias fugiat voluptates, reiciendis voluptatem tenetur perspiciatis cupiditate repellendus placeat?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis illum explicabo ipsa aperiam, voluptates rerum quod repudiandae. Beatae, id cupiditate molestias deserunt quaerat, exercitationem alias totam aspernatur omnis, minus saepe.
+    </p>
+
+    <h3>Main Skills</h3>
+    <!--modelo básico padrão de uma lista-->
+    <ul>
+        <li>Javascrip</li>
+        <li>React.js</li>
+        <li>CSS</li>
+        <li>HTML</li>
+    </ul>
+</body>
+</html>
